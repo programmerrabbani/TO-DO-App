@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To Do Apps with dom</title>
+    <!-- ALL CSS FILES  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <div class="todo">
+      <div class="card">
+        <div class="card-header">
+          <h2>To Do Apps</h2>
+        </div>
+        <div class="card-body">
+
+          <form id="todo_form">
+            <div class="form-inline">
+              <div class="form-group">
+                <input
+                  id="do_client"
+                  placeholder="Client Name"
+                  class="form-control"
+                  type="text"
+                  name="client_name"
+                />
+                <input
+                  id="do_name"
+                  placeholder="Project Name"
+                  class="form-control"
+                  type="text"
+                  name="project_name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  id="do_date"
+                  name="date"
+                  class="form-control"
+                  type="date"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  id="do_time"
+                  name="time"
+                  class="form-control"
+                  type="time"
+                />
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary">Add</button>
+              </div>
+            </div>
+          </form>
+
+          <br />
+          <div class="todo-list">
+
+            <ul class="list-group"></ul>
+          </div>
+        </div>
+        
+        <div class="card-footer"></div>
+      </div>
+    </div>
+
+    <!-- JS FILES  -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
